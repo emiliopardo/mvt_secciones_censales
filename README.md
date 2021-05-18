@@ -77,31 +77,31 @@ En el caso que nos ocupa generaremos los tiles en formato PBF y los almacenaremo
 Este proceso de generación de tiles en formato PBF y su almacenamiento en mbtiles se puede realizar en un único paso mediante la herramienta de linea de comandos de mapbox [tippecanoe](https://github.com/mapbox/tippecanoe). El repositorio git del tippecanoe posee una documentación muy detallada y describe tanto su instalación en linux como la ejecución de los comandos para la generación de los tiles.
 el comando a ejecutar para generar los tiles para las secciones_censales del año 2000 sería.
 
-    tippecanoe -zg -o secciones_censales_2000_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2000_01.geojson
+    tippecanoe -z16 -o secciones_censales_2000_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2000_01.geojson
 
 Como tenemos que procesar  21 capas, una para cada año. Se puede crear un pequeño script de linux que ejecute el comando de manera automática.
 
-    tippecanoe -zg -o secciones_censales_2000_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2000_01.geojson
-    tippecanoe -zg -o secciones_censales_2001_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2001_01.geojson
-    tippecanoe -zg -o secciones_censales_2002_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2002_01.geojson
-    tippecanoe -zg -o secciones_censales_2003_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2003_01.geojson
-    tippecanoe -zg -o secciones_censales_2004_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2004_01.geojson
-    tippecanoe -zg -o secciones_censales_2005_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2005_01.geojson
-    tippecanoe -zg -o secciones_censales_2006_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2006_01.geojson
-    tippecanoe -zg -o secciones_censales_2007_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2007_01.geojson
-    tippecanoe -zg -o secciones_censales_2008_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2008_01.geojson
-    tippecanoe -zg -o secciones_censales_2009_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2009_01.geojson
-    tippecanoe -zg -o secciones_censales_2010_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2010_01.geojson
-    tippecanoe -zg -o secciones_censales_2011_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2011_01.geojson
-    tippecanoe -zg -o secciones_censales_2012_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2012_01.geojson
-    tippecanoe -zg -o secciones_censales_2013_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2013_01.geojson
-    tippecanoe -zg -o secciones_censales_2014_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2014_01.geojson
-    tippecanoe -zg -o secciones_censales_2015_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2015_01.geojson
-    tippecanoe -zg -o secciones_censales_2016_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2016_01.geojson
-    tippecanoe -zg -o secciones_censales_2017_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2017_01.geojson
-    tippecanoe -zg -o secciones_censales_2018_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2018_01.geojson
-    tippecanoe -zg -o secciones_censales_2019_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2019_01.geojson
-    tippecanoe -zg -o secciones_censales_2020_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2020_01.geojson
+    tippecanoe -z16 -o secciones_censales_2000_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2000_01.geojson
+    tippecanoe -z16 -o secciones_censales_2001_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2001_01.geojson
+    tippecanoe -z16 -o secciones_censales_2002_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2002_01.geojson
+    tippecanoe -z16 -o secciones_censales_2003_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2003_01.geojson
+    tippecanoe -z16 -o secciones_censales_2004_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2004_01.geojson
+    tippecanoe -z16 -o secciones_censales_2005_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2005_01.geojson
+    tippecanoe -z16 -o secciones_censales_2006_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2006_01.geojson
+    tippecanoe -z16 -o secciones_censales_2007_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2007_01.geojson
+    tippecanoe -z16 -o secciones_censales_2008_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2008_01.geojson
+    tippecanoe -z16 -o secciones_censales_2009_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2009_01.geojson
+    tippecanoe -z16 -o secciones_censales_2010_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2010_01.geojson
+    tippecanoe -z16 -o secciones_censales_2011_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2011_01.geojson
+    tippecanoe -z16 -o secciones_censales_2012_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2012_01.geojson
+    tippecanoe -z16 -o secciones_censales_2013_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2013_01.geojson
+    tippecanoe -z16 -o secciones_censales_2014_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2014_01.geojson
+    tippecanoe -z16 -o secciones_censales_2015_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2015_01.geojson
+    tippecanoe -z16 -o secciones_censales_2016_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2016_01.geojson
+    tippecanoe -z16 -o secciones_censales_2017_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2017_01.geojson
+    tippecanoe -z16 -o secciones_censales_2018_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2018_01.geojson
+    tippecanoe -z16 -o secciones_censales_2019_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2019_01.geojson
+    tippecanoe -z16 -o secciones_censales_2020_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2020_01.geojson
 
 
 El resultado de estos comando será la creación de un archivo mbtiles para cada sección censal en el que se almacenarán cada uno de los tiles correspondiente a cada fila, columna y nivel de zoom
