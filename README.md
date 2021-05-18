@@ -143,7 +143,7 @@ La ejecución del contenedor de tileserver-gl crearemos un script de shell que n
 
 El contenido del script sería el siguiente.
 
-    docker run --rm -it --name tilserver-gl -v $(pwd)/data:/data -p 8080:8080 maptiler/tileserver-gl --no-cors --public_url http://localhost:8080 --verbose
+    docker run --rm -it --name tilserver-gl -v $(pwd)/data:/data -p 8080:8080 maptiler/tileserver-gl --public_url http://localhost:8080 --verbose
 
 los parámetro para la ejecución  del contenedor son los siguientes:
 
