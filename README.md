@@ -106,30 +106,32 @@ Como tenemos que procesar  21 capas, una para cada año. Se puede crear un peque
 
 El resultado de estos comando será la creación de un archivo mbtiles para cada sección censal en el que se almacenarán cada uno de los tiles correspondiente a cada fila, columna y nivel de zoom
 
-    2,6 Megabytes secciones_censales_2000_01.mbtiles
-    2,6 Megabytes secciones_censales_2001_01.mbtiles
-    2,6 Megabytes secciones_censales_2002_01.mbtiles
-    2,6 Megabytes secciones_censales_2003_01.mbtiles
-    2,6 Megabytes secciones_censales_2004_01.mbtiles
-    2,6 Megabytes secciones_censales_2005_01.mbtiles
-    2,6 Megabytes secciones_censales_2006_01.mbtiles
-    2,6 Megabytes secciones_censales_2007_01.mbtiles
-    2,6 Megabytes secciones_censales_2008_01.mbtiles
-    2,7 Megabytes secciones_censales_2009_01.mbtiles
-    2,7 Megabytes secciones_censales_2010_01.mbtiles
-    4,2 Megabytes secciones_censales_2011_01.mbtiles
-    4,2 Megabytes secciones_censales_2012_01.mbtiles
-    4,2 Megabytes secciones_censales_2013_01.mbtiles
-    2,7 Megabytes secciones_censales_2014_01.mbtiles
-    4,3 Megabytes secciones_censales_2015_01.mbtiles
-    4,3 Megabytes secciones_censales_2016_01.mbtiles
-    4,3 Megabytes secciones_censales_2017_01.mbtiles
-    4,3 Megabytes secciones_censales_2018_01.mbtiles
-    4,3 Megabytes secciones_censales_2019_01.mbtiles
-    4,3 Megabytes secciones_censales_2020_01.mbtiles
+    106 Megabytes secciones_censales_2000_01.mbtiles
+    106 Megabytes secciones_censales_2001_01.mbtiles
+    106 Megabytes secciones_censales_2002_01.mbtiles
+    106 Megabytes secciones_censales_2003_01.mbtiles
+    106 Megabytes secciones_censales_2004_01.mbtiles
+    106 Megabytes secciones_censales_2005_01.mbtiles
+    106 Megabytes secciones_censales_2006_01.mbtiles
+    106 Megabytes secciones_censales_2007_01.mbtiles
+    106 Megabytes secciones_censales_2008_01.mbtiles
+    107 Megabytes secciones_censales_2009_01.mbtiles
+    107 Megabytes secciones_censales_2010_01.mbtiles
+    107 Megabytes secciones_censales_2011_01.mbtiles
+    107 Megabytes secciones_censales_2012_01.mbtiles
+    107 Megabytes secciones_censales_2013_01.mbtiles
+    107 Megabytes secciones_censales_2014_01.mbtiles
+    107 Megabytes secciones_censales_2015_01.mbtiles
+    107 Megabytes secciones_censales_2016_01.mbtiles
+    107 Megabytes secciones_censales_2017_01.mbtiles
+    107 Megabytes secciones_censales_2018_01.mbtiles
+    107 Megabytes secciones_censales_2019_01.mbtiles
+    107 Megabytes secciones_censales_2020_01.mbtiles
 
  
-Si comparamos el tamaño del archivo Geojson y el tamaño del archivo mbtiles se aprecia como el uso del formato PBF y su almacenamiento en mbtiles consige una gran optimización en cuanto al almacenamiento.
+Si comparamos el tamaño del archivo Geojson y el tamaño del archivo mbtiles estos últimos son de mayor tamaño. Sin embargo se ha optimizado los datos para su uso en un servicio de mapa ya que se han creado diferentes niveles de zoom y tileados. 
+
+La optimización de los datos redunda en una optimización en los servicios a publicar
 
 **Publicación de Servicio Vector Tile**
 
