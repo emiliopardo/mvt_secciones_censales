@@ -1,0 +1,93 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "fonts": "fonts",
+      "sprites": "sprites",
+      "styles": "styles",
+      "mbtiles": ""
+    },
+    "domains": [
+      "localhost:8080",
+      "127.0.0.1:8080"
+    ],
+    "formatQuality": {
+      "jpeg": 80,
+      "webp": 90
+    },
+    "maxScaleFactor": 3,
+    "maxSize": 2048,
+    "pbfAlias": "pbf",
+    "serveAllFonts": false,
+    "serveAllStyles": false,
+    "serveStaticMaps": true,
+    "tileMargin": 0
+  },
+  "styles": {},
+  "data": {
+    "secciones_censales_2000": {
+      "mbtiles": "secciones_censales_2000_01.mbtiles"
+    },
+    "secciones_censales_2001": {
+      "mbtiles": "secciones_censales_2001_01.mbtiles"
+    },
+    "secciones_censales_2002": {
+      "mbtiles": "secciones_censales_2002_01.mbtiles"
+    },
+    "secciones_censales_2003": {
+      "mbtiles": "secciones_censales_2003_01.mbtiles"
+    },
+    "secciones_censales_2004": {
+      "mbtiles": "secciones_censales_2004_01.mbtiles"
+    },
+    "secciones_censales_2005": {
+      "mbtiles": "secciones_censales_2005_01.mbtiles"
+    },
+    "secciones_censales_2006": {
+      "mbtiles": "secciones_censales_2006_01.mbtiles"
+    },
+    "secciones_censales_2007": {
+      "mbtiles": "secciones_censales_2007_01.mbtiles"
+    },
+    "secciones_censales_2008": {
+      "mbtiles": "secciones_censales_2008_01.mbtiles"
+    },
+    "secciones_censales_2009": {
+      "mbtiles": "secciones_censales_2009_01.mbtiles"
+    },
+    "secciones_censales_2010": {
+      "mbtiles": "secciones_censales_2010_01.mbtiles"
+    },
+    "secciones_censales_2011": {
+      "mbtiles": "secciones_censales_2011_01.mbtiles"
+    },
+    "secciones_censales_2012": {
+      "mbtiles": "secciones_censales_2012_01.mbtiles"
+    },
+    "secciones_censales_2013": {
+      "mbtiles": "secciones_censales_2013_01.mbtiles"
+    },
+    "secciones_censales_2014": {
+      "mbtiles": "secciones_censales_2014_01.mbtiles"
+    },
+    "secciones_censales_2015": {
+      "mbtiles": "secciones_censales_2015_01.mbtiles"
+    },
+    "secciones_censales_2016": {
+      "mbtiles": "secciones_censales_2016_01.mbtiles"
+    },
+    "secciones_censales_2017": {
+      "mbtiles": "secciones_censales_2017_01.mbtiles"
+    },
+    "secciones_censales_2018": {
+      "mbtiles": "secciones_censales_2018_01.mbtiles"
+    },
+    "secciones_censales_2019": {
+      "mbtiles": "secciones_censales_2019_01.mbtiles"
+    },
+    "secciones_censales_2020": {
+      "mbtiles": "secciones_censales_2020_01.mbtiles"
+    }
+  }
+}
+
