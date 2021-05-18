@@ -151,7 +151,6 @@ los parámetro para la ejecución  del contenedor son los siguientes:
  - ***-name:*** nombre asignado al contenedor
  - ***-v:*** mapeo de asignación de volumen en el contenedor. el directorio data/ dentro del contenedor se mapeará al directorio data del host. El directorio data del host debe ser un directorio existente dentro del árbol de directorios desde donde se ejecuta el script de inicio del docker de tileserver-gl.
  - ***-p:*** mapeao de puertos entre contenedor y host.
- - ***-no-cors:*** habilitación de cors.
  - ***--public_url:*** url pública para los servicios vector tiles.
  - ***--verbose:*** activación del modo verbose para mostrar información de la ejecución.
 
