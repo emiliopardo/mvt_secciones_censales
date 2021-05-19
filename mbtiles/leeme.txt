@@ -1,0 +1,1 @@
+Debido a las limitaciones de tamaño a la hora de subir archivos a github no se suben los mbtiles. Se pueden generar a partir de los archivos geojson subidos en el directorio geojson
