@@ -75,6 +75,11 @@ El formato Protocolbuffer Binary Format (PBF) es el mas recomendable en estos ca
 En el caso que nos ocupa generaremos los tiles en formato PBF y los almacenaremos en una base de datos mbtiles.
 
 Este proceso de generación de tiles en formato PBF y su almacenamiento en mbtiles se puede realizar en un único paso mediante la herramienta de linea de comandos de mapbox [tippecanoe](https://github.com/mapbox/tippecanoe). El repositorio git del tippecanoe posee una documentación muy detallada y describe tanto su instalación en linux como la ejecución de los comandos para la generación de los tiles.
+
+
+**Docker tippecanoe**
+[(https://hub.docker.com/r/morlov/tippecanoe](https://hub.docker.com/r/morlov/tippecanoe)
+
 el comando a ejecutar para generar los tiles para las secciones_censales del año 2000 sería.
 
     tippecanoe -z16 -o secciones_censales_2000_01.mbtiles --drop-densest-as-needed -s EPSG:3857 --force secciones_censales_2000_01.geojson
